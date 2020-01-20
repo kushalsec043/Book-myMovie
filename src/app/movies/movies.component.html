@@ -1,0 +1,89 @@
+<div class="row">
+    <div class="col-md-3">
+      <app-movie-list (recipeWasSelected)="selectedRecipe = $event"></app-movie-list>
+    </div>
+    <div class="col-md-9">
+      <div class="row" style="cursor: pointer">
+        <h3 style="color: rgb(8, 8, 8); margin-left: 70px">Movies</h3>
+            <hr style="height:1px;border:none;color:#333;background-color:#333; max-width:1050px"/>
+            <div class="col-xs-12">
+          <div class="col-xs-4" style = "padding-top: 20px;">
+            <img src="https://amc-theatres-res.cloudinary.com/v1571709576/amc-cdn/production/2/movies/53700/53726/PosterDynamic/94205.jpg"
+               width="280" height="250" class="d-inline-block align-top" style ="margin-left:50px;" alt="" >
+          </div>
+          <div class="col-xs-4"  style = "padding-top: 20px;">
+            <img src="https://images.redbox.com/Images/EPC/boxartvertical/208635.jpg"
+               width="280" height="250" class="d-inline-block align-top" style ="margin-left:55px;"alt="" >
+          </div>
+          <div class="col-xs-4"  style = "padding-top: 20px; padding-bottom: 30px;">
+            <img src="https://amc-theatres-res.cloudinary.com/image/upload/f_auto,fl_lossy,h_465,q_auto,w_310/v1572534347/amc-cdn/production/2/movies/57600/57550/PosterDynamic/94562.jpg"
+               width="280" height="250" class="d-inline-block align-top" style ="margin-left:35px;"alt="" >
+          </div>
+        </div>
+          <div class="row">
+              <div class="col-xs-4" style = "padding-top: 20px;">
+                <img src="https://amc-theatres-res.cloudinary.com/v1570807898/amc-cdn/production/2/movies/59200/59161/PosterDynamic/93491.jpg"
+                   width="280" height="250" class="d-inline-block align-top" style ="margin-left:80px;" alt="" >
+              </div>
+              <div class="col-xs-4"  style = "padding-top: 20px;">
+                <img src="https://i.ytimg.com/vi/YcHKrNMwWyQ/movieposter.jpg"
+                   width="280" height="250" class="d-inline-block align-top" style ="margin-left:65px;"alt="" >
+              </div>
+              <div class="col-xs-4"  style = "padding-top: 20px; padding-bottom: 30px;">
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/christmas-movies-theaters-2019-charlies-angels-1565036398.jpg"
+                   width="280" height="250" class="d-inline-block align-top" style ="margin-left:40px;"alt="" >
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xs-4" style = "padding-top: 20px;">
+                <img src="{{imagepath}}"
+                   width="280" height="250" class="d-inline-block align-top" style ="margin-left:80px;" alt="" >
+              </div>
+              <div class="col-xs-4"  style = "padding-top: 20px;">
+                <img src="{{imagepath}}"
+                   width="280" height="250" class="d-inline-block align-top" style ="margin-left:65px;"alt="" >
+              </div>
+              <div class="col-xs-4"  style = "padding-top: 20px; padding-bottom: 30px;">
+                <img src="{{imagepath}}"
+                   width="280" height="250" class="d-inline-block align-top" style ="margin-left:40px;"alt="" >
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xs-4" style = "padding-top: 20px;">
+                <img src="{{imagepath}}"
+                   width="280" height="250" class="d-inline-block align-top" style ="margin-left:80px;" alt="" >
+              </div>
+              <div class="col-xs-4"  style = "padding-top: 20px;">
+                <img src="{{imagepath}}"
+                   width="280" height="250" class="d-inline-block align-top" style ="margin-left:65px;"alt="" >
+              </div>
+              <div class="col-xs-4"  style = "padding-top: 20px; padding-bottom: 30px;">
+                <img src="{{imagepath}}"
+                   width="280" height="250" class="d-inline-block align-top" style ="margin-left:40px;"alt="" >
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
+   
+    <!-- <div class="col-md-7">
+      <app-movie-detail
+        *ngIf="selectedRecipe; else infoText"
+        [recipe]="selectedRecipe"></app-movie-detail>
+      <ng-template #infoText>
+        <p>Please select a Movie!!!!</p>
+      </ng-template>
+    </div> -->
+  
+  <div class="divider"></div>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <h3 style="color: honeydew;">Privacy Note......</h3>
+      <hr style="height:1px;border:none;color:#333;background-color:#333; max-width:1115px"/>
+      <p style="color: honeydew;">
+        By using www.bookmyshow.com(our website), you are fully accepting the Privacy Policy available at https://bookmyshow.com/privacy governing your access to Bookmyshow and provision of services by Bookmyshow to you. 
+        If you do not accept terms mentioned in the Privacy Policy, you must not share any of your personal information and immediately exit Bookmyshow.</p>
+    </div>
+    </div>
+  </nav>

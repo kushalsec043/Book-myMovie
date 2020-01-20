@@ -1,0 +1,36 @@
+.navbar-custom {
+    background-color: rgb(49, 45, 45);
+}
+img {
+  border-radius: 5%;
+}
+  .navbar-nav {
+      margin-right: 80px;
+    padding-left:140px;
+  }
+  
+  .li{
+    color: rgb(255, 255, 255);
+  }
+
+  .divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+.divider1{
+  width:auto;
+  height:50px;
+  display:inline-block;
+}
+.glyphicon-menu-hamburger {
+  font-size: 15px;
+  border-color: grey;
+  color: grey;
+}
+.ui-input-search:after{
+  display: block;
+  width: 30px !important;
+  height: 30px !important;
+  background-size: contain;
+}

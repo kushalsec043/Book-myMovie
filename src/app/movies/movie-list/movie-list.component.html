@@ -1,0 +1,16 @@
+<button class="button button4" (click)="onClickMe()" style="color: rgb(4, 243, 4); margin-left: 40px; padding-top: 20px;">Back to \Home Page.....</button>
+<button class="button button4" (click)="onClickMe()" style="color: rgb(245, 10, 10); margin-left: 40px; padding-top: 20px;">Exit.....</button>
+
+<h3 style="color: rgb(8, 8, 8); margin-left: 40px">Trending Searches</h3>
+<hr style="height:1px;border:none;color:#333;background-color:#333; max-width:315px; margin-left: 35px"/>
+<div class="row">
+  <div class="col-xs-1">
+  </div>
+  <div class="col-xs-11">     
+    <app-movie-item
+    *ngFor="let recipeEl of recipes"
+    [recipe]="recipeEl"
+    (recipeSelected)="onRecipeSelected(recipeEl)"></app-movie-item>
+  </div>
+</div>
+  
