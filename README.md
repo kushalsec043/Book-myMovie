@@ -1,27 +1,15 @@
-# Bookmyshow
+Version 2.0 has been updated Components and Directives, Header and navigation capabilities.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+Version 2.1 has been updated Updates include Routing, forms and services.
 
-## Development server
+Next Update includes.........-->>> Server side communication (firebase),,/ Http requests,,/ Authetication for a valid user.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+More updates will be Done on EVENTS, PLAYS, AND MORE
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+	Movie Booking System is an Angular based seat and ticket reservation system allowing bookings in a few easy steps.
+	Users can process online payments, manage reservations, and customize events.  
+	Used Angular 8 as a framework to create a Single Page Application (SPA) which can bind data to specific views and synchronize data with a server.
+	Involved in Angular8 MVC architecture implementation and client-side validations. 
+	Used Node JS architectural concepts like event loop, host listeners, call-backs and event emitters. 
+	Used MongoDB as backend integration. 
